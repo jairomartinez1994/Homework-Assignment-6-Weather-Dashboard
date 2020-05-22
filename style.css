@@ -1,0 +1,13 @@
+  
+.text-center{
+    padding: 50px;
+}
+.fiveDayColor {
+    padding: 20px;
+    background-color:rgba(149, 172, 161, 0.589);
+    color:cornsilk ;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+
+}
