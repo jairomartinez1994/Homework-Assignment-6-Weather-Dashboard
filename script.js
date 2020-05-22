@@ -127,7 +127,7 @@ function getCurrentForecast() {
                 var temp = (results[i].main.temp - 273.15) * 1.80 + 32;
                 var tempF = Math.floor(temp);
 
-                var card = $('<div>').addClass('card col-md-2 ml-4 bg-primary text-white');
+                var card = $('<div>').addClass('card col-md-4 ml-4 bg-info text-white');
                 var cardBody = $('<div>').addClass('card-body p-3 forecastBody')
                 // var cityDate = $('<h4>').addClass('card-title').text(moment(results[i].dt_txt, "X").format("MMM Do"));
                 var cityDate = $('<h4>').addClass('card-title').text(new Date(results[i].dt_txt).toLocaleDateString());
